@@ -1,0 +1,243 @@
+<style> @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lexend+Peta|Noto+Sans+JP|Philosopher|Quattrocento+Sans|Rubik+Mono+One|Russo+One|Titillium+Web|Tomorrow&display=swap');
+</style>  
+.russo {
+ font-family: 'Russo One', sans-serif;
+}
+.titi {
+	font-family: 'Titillium Web', sans-serif; /* SI */
+}
+.noto {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.jose {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.tomo {
+	font-family: 'Tomorrow', sans-serif;
+}
+.quattro {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+.filo {
+	font-family: 'Philosopher', sans-serif;
+}
+.rubik {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.lexe {
+	font-family: 'Lexend Peta', sans-serif;
+}
+body {
+	---width: 800px;
+	margin: 0;
+	margin-bottom: 10%;
+	background: #F1F1F1;
+	font: 15px 'Quattrocento Sans', sans-serif;
+	line-height: 1.5;
+}
+div.container {
+	width:100%;
+	max-width:1200px;
+	margin: 0 auto;
+	padding:0 20px;
+	box-sizing:border-box;
+	background:none;
+}
+header {
+	background: black;
+	width: 800px;
+	padding: 20px;
+}
+.StileTitolo {
+	background-color: black;
+}
+aside {
+	float: left;
+	width:30%;
+}
+main {
+	padding-left:30px;
+	padding-top:220px;
+	box-sizing:border-box;
+}
+
+.pagine {
+	float:left;
+	width:70%; 
+}
+
+.home {
+	float: center;
+	width: 80%;
+}
+
+div.research {
+	max-width: 70%;
+}
+.menu {
+	font-size: 25px;
+	background: black;
+	color : #F1F1F1;
+	padding: 20px;
+	margin-top: 0;
+}
+div.clear {
+	clear:both;
+	width:0;
+	height:0;
+	margin:0;
+	padding:0;
+	line-height:0;
+}
+/* Stili per i titoli h1 Helvetica, Arial*/
+h1 {
+	text-align: right;
+	float: left;
+	/* width: 70%;
+	/*margin: 125px 100px 75px 100px;*/
+	font: 60px 'Noto Sans JP', sans-serif;
+	/* color : #F1F1F1;
+	background-color: black;*/
+}
+h2 {
+	font: 30px 'Titillium Web', sans-serif;
+	padding-top: 20px;
+}
+h3 {
+	font: 25px 'Titillium Web', sans-serif;
+	padding-top: 0px;
+	padding-left:  20px;
+}
+
+.titoloSin {
+	float: left;
+}
+.titoloDes {
+	float: right;
+}
+.item-evi1 {
+	width: 200px;
+	padding: 20px;
+	float: left;
+}
+.item-evi2 {
+	width: 700px;
+	padding: 20px;
+	float: left;
+}
+.mes-full {
+	width: 920;
+	padding: 20px;
+	clear: both;
+}
+div {
+	background: #F6F6F6;
+	/* width: 920px; */
+	padding: 20px;
+}
+/* Stile description */
+dl {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0
+}
+dt {
+	float: left;
+	width: 15%;
+	/* adjust the width; make sure the total of both is 100% */
+	padding-bottom: 5px;
+	margin: 0
+}
+dd {
+	float: left;
+	width: 85%;
+	/* adjust the width; make sure the total of both is 100% */
+	padding-bottom: 5px;
+	margin: 0;
+}
+footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	font: 14px 'Philosopher', sans-serif;
+	max-width: 812px;
+	border: 0;
+}
+/* unvisited link */
+a:link {
+	color: black;
+	text-decoration: none;
+}
+/* visited link */
+a:visited {
+	color: #779AAB;
+	text-decoration: none;
+}
+a.logo {
+	color:#09F;
+}
+/* mouse over link   */
+a:hover {
+	color: #779AAB;
+	text-decoration: none;
+}
+/* stile ul menu  */
+ul.ulmenu {
+	list-style-type: square;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 100px;
+	margin-left: -20px;
+}
+
+/* Media queries */
+@media screen and (max-width: 991px) {
+	dt {
+		width: 20%;
+	}
+	dd {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 767px) {
+	aside, main {
+		float:none;
+		width:100%;
+		padding-left:0;
+	}
+	main {
+		padding-top:0;
+	}
+	ul.ulmenu {
+		margin-top: -10px;
+		margin-right:-20px;
+		margin-bottom:30px;
+		padding-top:0;
+		padding-bottom:10px;
+		padding-left:20px;
+		border-bottom:1px solid #ccc;
+	}
+	ul.ulmenu li {
+		display:inline-block;
+		margin-right:15px;
+	}
+	dt {
+		width: 17%;
+	}
+	dd {
+		width: 83%;
+	}
+	h2.menu {
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+}
+@media screen and (max-width: 599px) {
+	dt {
+		width: 20%;
+	}
+	dd {
+		width: 80%;
+	}
+}
