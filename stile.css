@@ -1,31 +1,15 @@
-<style> @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lexend+Peta|Noto+Sans+JP|Philosopher|Quattrocento+Sans|Rubik+Mono+One|Russo+One|Titillium+Web|Tomorrow&display=swap');
+<style> 
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Quattrocento+Sans|Titillium+Web|');
 </style>  
-.russo {
- font-family: 'Russo One', sans-serif;
-}
+
 .titi {
 	font-family: 'Titillium Web', sans-serif; /* SI */
-}
-.noto {
-	font-family: 'Noto Sans JP', sans-serif;
-}
-.jose {
-	font-family: 'Josefin Sans', sans-serif;
-}
-.tomo {
-	font-family: 'Tomorrow', sans-serif;
 }
 .quattro {
 	font-family: 'Quattrocento Sans', sans-serif;
 }
 .filo {
 	font-family: 'Philosopher', sans-serif;
-}
-.rubik {
-	font-family: 'Rubik Mono One', sans-serif;
-}
-.lexe {
-	font-family: 'Lexend Peta', sans-serif;
 }
 body {
 	---width: 800px;
@@ -43,14 +27,14 @@ div.container {
 	box-sizing:border-box;
 	background:none;
 }
-header {
+/*header {
 	background: black;
 	width: 800px;
 	padding: 20px;
 }
 .StileTitolo {
 	background-color: black;
-}
+}*/
 aside {
 	float: left;
 	width:30%;
@@ -59,17 +43,10 @@ main {
 	padding-left:30px;
 	padding-top:220px;
 	box-sizing:border-box;
-}
-
-.pagine {
 	float:left;
 	width:70%; 
 }
 
-.home {
-	float: center;
-	width: 80%;
-}
 
 div.research {
 	max-width: 70%;
@@ -115,21 +92,11 @@ h3 {
 .titoloDes {
 	float: right;
 }
-.item-evi1 {
-	width: 200px;
-	padding: 20px;
-	float: left;
+.titoloRicerca{
+	padding-bottom: 40px;
 }
-.item-evi2 {
-	width: 700px;
-	padding: 20px;
-	float: left;
-}
-.mes-full {
-	width: 920;
-	padding: 20px;
-	clear: both;
-}
+
+
 div {
 	background: #F6F6F6;
 	/* width: 920px; */
@@ -157,7 +124,8 @@ dd {
 	margin: 0;
 }
 footer {
-	text-align: center;
+	text-align: left;
+	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10%;
@@ -239,5 +207,15 @@ ul.ulmenu {
 	}
 	dd {
 		width: 80%;
+	}
+}
+@media screen and (max-width: 445px) {
+	dt {
+		float: none;
+		width: 100%;
+	}
+	dd {
+		float: none;
+		width: 100%;
 	}
 }
